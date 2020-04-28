@@ -5,7 +5,11 @@ Setup capabilities:
     
 Download and edit to your development requirements/needs
 
-To start, just run "npm start" (without quotation the marks)
-in the console/terminal from the project directory
+1.  Run "npm install" (without the quotation marks)
+    in the console/terminal from the project directory
+    to install the dependencies listed in package.json
+2.  Run "npm start" (without the quotation marks)
+    in the console/terminal from the project directory
+    to start the gulp setup (watch, convert and minify)
 
 Happy coding
