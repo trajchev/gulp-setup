@@ -4,4 +4,8 @@ Setup capabilities:
     - reload browser on code change using browser sync
     
 Download and edit to your development requirements/needs
+
+To start, just run "npm start" (without quotation the marks)
+in the console/terminal from the project directory
+
 Happy coding
