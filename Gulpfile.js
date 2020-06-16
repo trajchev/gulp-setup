@@ -4,6 +4,7 @@ const cleanCSS = require('gulp-clean-css');
 const browserSync = require('browser-sync').create();
 const babel = require('gulp-babel');
 const plumber = require('gulp-plumber');
+const minify = require('gulp-minify');
 
 // Compile scss to css
 function style() {
@@ -27,6 +28,7 @@ function jses() {
             ]
         ]
     }))
+    .pipe(minify())
     .pipe(gulp.dest('./dist'))
     .pipe(browserSync.stream())
 }

@@ -1,3 +1,1 @@
-const app = () => {
-    return 'Hello World!';
-}
+const app = () => 'Hello World!';
