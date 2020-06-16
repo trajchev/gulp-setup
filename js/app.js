@@ -1,1 +1,3 @@
-// Your js goes here
+const app = () => {
+    return 'Hello World!';
+}
